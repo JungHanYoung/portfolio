@@ -10,7 +10,7 @@
   For business & inquires, contact me -> cobimr@protonmail.com
 -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -18,11 +18,11 @@
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>정한영 | Developer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="JungHanyoung, junghanyoung, portfolio, skill" />
     <!-- Improve your SEO by adding a small descrption of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="정한영 | Developer" />
 
     <!-- Required librarys -->
     <link
@@ -46,12 +46,12 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          안녕하세요! 성장하는 것이 즐거운 개발자
           <br />
-          I'm the Unknown Developer.
+          <span class="text-color-main">정한영</span> 입니다.
         </h1>
         <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
+          <a class="cta-btn cta-btn--hero" href="#about">저를 알고 싶으신가요?</a>
         </p>
       </div>
     </div>
@@ -61,7 +61,7 @@
     <section id="about">
       <div class="container">
         <h2 class="section-title">
-          About me
+          자기 소개
         </h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
@@ -69,7 +69,7 @@
               <img
                 class="img-fluid rounded shadow-lg"
                 height="auto"
-                width="300px"
+                width="150px"
                 src="./assets/profile.jpg"
                 alt="Profile Image"
               />
@@ -78,10 +78,25 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Excepturi neque, ipsa animi maiores repellendu distinctioaperiam
-                earum dolor voluptatum consequatur blanditiis inventore debitis
-                fuga numquam voluptate architecto itaque molestiae.
+              <span class="dark-blue-text" style="color: #FFF; font-size: 1.3em;">“우리 모두는 자신의 힘으로 발견한 내용을 가장 쉽게 익힌다."</span>
+              <br />
+              제가 대학 시절 컴퓨터공학 수업을 들으면서 좌우명이 된
+
+격언입니다.3학년 2학기에서부터 컴퓨터 공학 수업을 듣게 된
+
+저는 혼자 수업을 들어야 했습니다.그 당시 C언어에 대한
+
+기초가 부족한 상태에서 자료구조 수업을 듣는 게 쉽지는
+
+않았습니다.하지만 공책에 알고리즘을 작성하고 디버깅을 통해
+
+문제점을 알아내면서 제힘으로 발견하고 해결했을 때의
+
+성취감을 느낄 수 있었고 A+이라는 전공에서 받아본 적 없는
+
+성적을 받을 수 있었습니다.
+
+이런 것들은 IT진로에 대한 확신을 하게 했습니다.
               </p>
               <p class="about-wrapper__info-text">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -106,28 +121,31 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">
-            Projects
+            프로젝트
           </h2>
 
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Project Title</h3>
+                <h3 class="project-wrapper__text-title">귤메이트</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    귤메이트는 가족의 일정 및 할일들을 관리할 수 있는 앱입니다. 
+                    Spring Boot를 이용해 API 서버, AWS로 DB, 서버 인프라를 구축하였고
+                    Android와 iOS 둘다 구축할 수 있도록 Flutter로 앱을 구현하는 두가지 작업을 병행하였습니다.
+                    <br />
+                    <br />
+                    기능 하나하나는 간단하게 구현을 하였지만 서비스에서 기본적으로 지켜야할 것이라 생각되는 인증, 데이터 CRUD, 
+                    API 연동, 파일 업로드, 실시간 채팅 등을 중점으로 개발을 진행하였습니다. 더 나아가 AWS EC2, RDS, S3로 클라우드 서버 및 DB를 구축하였으며
+                    API 서버는 도메인을 구입하고 HTTPS 설정까지 하며 시작부터 배포까지의 과정을 경험하였습니다.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
-                  See Live
+                <a target="_blank" class="cta-btn text-color-main" href="#!">
+                  Flutter Code
                 </a>
                 <a target="_blank" class="cta-btn text-color-main" href="#!">
-                  Source Code
+                  Backend Code
                 </a>
               </div>
             </div>
@@ -243,15 +261,6 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-codepen fa-inverse"></i>
-          </a>
-          <a href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
           <a href="#!" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
