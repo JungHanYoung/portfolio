@@ -25,6 +25,7 @@
     }
 
     &__text {
+      position: relative;
       text-align: left;
 
       @include respond(phone) {
@@ -42,6 +43,14 @@
         @include respond(phone) {
           font-size: 2rem;
         }
+      }
+
+      &-date {
+        font-size: 1.2em;
+        font-weight: 300;
+        position: absolute;
+        top: 0;
+        right: 0;
       }
 
       & p > a {
